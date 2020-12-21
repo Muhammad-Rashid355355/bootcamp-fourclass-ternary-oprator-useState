@@ -1,6 +1,7 @@
 import React from "react";
-export function Propsvalue(props){
-return(
-<h1>here your counterd:{props.counter}</h1>
-)
+ function Propsvalue(props){
+     return(
+    <h1>your counterd is:{props.counter} </h1>
+     )
 }
+export default Propsvalue;
